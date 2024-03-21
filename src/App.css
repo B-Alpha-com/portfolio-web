@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Alata&family=Barlow+Semi+Condensed:wght@100&family=Bricolage+Grotesque&family=Dancing+Script:wght@500&family=Dongle:wght@300&family=Edu+TAS+Beginner&family=El+Messiri&family=Gluten:wght@200&family=Great+Vibes&family=Inconsolata:wght@200&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mynerve&family=Noto+Sans+JP:wght@800&family=Noto+Sans:wght@700&family=Playfair+Display&family=Quintessential&family=Sedgwick+Ave+Display&family=Tulpen+One&family=Ysabeau+Infant:wght@1&display=swap");
+
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  height: 100vh;
+  background-color: #fff;
+}
+.profile-title {
+  font-size: 4rem;
+}
+.container {
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.text-color-main {
+  font-size: 4rem;
+  color: #00cdac;
+}
+.know-more-link {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #00cdac;
+  border: 2px solid #00cdac;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  transition: background-color 1s;
+  transition-timing-function: cubic-bezier((0.19, 1, 0.22, 1));
+}
+.know-more-link:hover {
+  background-color: #00cdac;
+  color: #fff;
+}
+
+/* Styling the About me page */
+#about {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #02aab0;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.section-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.image-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20px;
+}
+.about-me-text-div {
+  margin-left: 20px;
+}
+.about-me-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+/* Styling the Resume page */
+
+.view-resume {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  transition: background-color 1s;
+  transition-timing-function: cubic-bezier((0.19, 1, 0.22, 1));
+}
+.view-resume:hover {
+  background-color: #fff;
+  color: #02aab0;
+}
+.resume-page {
+  height: 100vh;
+}
+.resume-header {
+  text-align: center;
+  font-size: 4rem;
+  font-family: Montserrat, sans-serif;
+}
+/* Styling the Project page */
+
+#projects {
+  /* height: 100vh; */
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: #02aab0;
+  color: #fff;
+  padding: 1rem;
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+.project-container {
+  margin-top: 20px;
+}
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 2px #fff solid;
+  padding: 1.2rem;
+}
+.text-wrapper {
+  flex: 1;
+}
+.project-wrapper-image {
+  flex: 1;
+}
+.project-wrapper__text-title {
+  font-size: 2rem;
+  font-family: Montserrat, sans-serif;
+}
+.source-code {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.cta-btn {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #00cdac;
+  border: 2px solid #fff;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  background-color: #fff;
+  transition: background-color 1s;
+  transition-timing-function: cubic-bezier((0.19, 1, 0.22, 1));
+  margin-right: 10px;
+}
+/* Styling the footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.container-footer {
+  width: 700px;
+  text-align: center;
+}
+.footer-unordered {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-icon {
+  font-size: 2rem;
+}
