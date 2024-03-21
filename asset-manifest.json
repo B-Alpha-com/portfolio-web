@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.432c2ac5.chunk.css",
+    "main.js": "/portfolio-web/static/js/main.ec3b6451.chunk.js",
+    "main.js.map": "/portfolio-web/static/js/main.ec3b6451.chunk.js.map",
+    "runtime~main.js": "/portfolio-web/static/js/runtime~main.7077fc23.js",
+    "runtime~main.js.map": "/portfolio-web/static/js/runtime~main.7077fc23.js.map",
+    "static/js/2.2f436571.chunk.js": "/portfolio-web/static/js/2.2f436571.chunk.js",
+    "static/js/2.2f436571.chunk.js.map": "/portfolio-web/static/js/2.2f436571.chunk.js.map",
+    "static/js/3.fc5cbf83.chunk.js": "/portfolio-web/static/js/3.fc5cbf83.chunk.js",
+    "static/js/3.fc5cbf83.chunk.js.map": "/portfolio-web/static/js/3.fc5cbf83.chunk.js.map",
+    "index.html": "/portfolio-web/index.html",
+    "precache-manifest.533d2a5905779f00b27bd2bbf77c3836.js": "/portfolio-web/precache-manifest.533d2a5905779f00b27bd2bbf77c3836.js",
+    "service-worker.js": "/portfolio-web/service-worker.js",
+    "static/css/main.432c2ac5.chunk.css.map": "/portfolio-web/static/css/main.432c2ac5.chunk.css.map",
+    "static/media/IMG_4667.PNG": "/portfolio-web/static/media/IMG_4667.526cd39b.PNG",
+    "static/media/chopify.mp4": "/portfolio-web/static/media/chopify.3822d892.mp4",
+    "static/media/countdown.mp4": "/portfolio-web/static/media/countdown.8df59aec.mp4",
+    "static/media/javaWeather.mp4": "/portfolio-web/static/media/javaWeather.38fba72c.mp4",
+    "static/media/resume.png": "/portfolio-web/static/media/resume.54ef2782.png"
+  }
+}
